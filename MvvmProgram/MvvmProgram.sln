@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmProgram", "MvvmProgram.csproj", "{FBDEDB57-CBB4-4449-947A-51DD08FE232B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvvmProgram", "MvvmProgram.csproj", "{FBDEDB57-CBB4-4449-947A-51DD08FE232B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExMvvmCore", "..\ExMvvmCore\ExMvvmCore.csproj", "{135F2B8A-FC47-4925-AF05-3E903219ACB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExMvvmCore", "..\ExMvvmCore\ExMvvmCore.csproj", "{135F2B8A-FC47-4925-AF05-3E903219ACB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleIoc", "..\SimpleIoc\SimpleIoc.csproj", "{8DB560FE-28C2-42C6-AE55-FB2AE43D16C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{135F2B8A-FC47-4925-AF05-3E903219ACB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{135F2B8A-FC47-4925-AF05-3E903219ACB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{135F2B8A-FC47-4925-AF05-3E903219ACB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB560FE-28C2-42C6-AE55-FB2AE43D16C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB560FE-28C2-42C6-AE55-FB2AE43D16C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB560FE-28C2-42C6-AE55-FB2AE43D16C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB560FE-28C2-42C6-AE55-FB2AE43D16C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

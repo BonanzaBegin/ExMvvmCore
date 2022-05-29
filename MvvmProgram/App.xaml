@@ -1,9 +1,10 @@
-﻿<Application x:Class="MvvmProgram.App"
+﻿<appbase:ApplicationBase x:Class="MvvmProgram.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:MvvmProgram"
+             xmlns:appbase="clr-namespace:ExMvvmCore.AppServices;assembly=ExMvvmCore"
              StartupUri="MainWindow.xaml">
-    <Application.Resources>
+    <appbase:ApplicationBase.Resources>
         <PathGeometry x:Key="warningIcon" Figures="M514.007056 1009.348491c-273.762446 0-496.545668-222.783222-496.545668-496.545669S240.24461
                   16.257154 514.007056 16.257154 1010.552724 238.839671 1010.552724 512.802822s-222.783222 496.545668-496.545668 
                   496.545669z m0-266.135633c-39.539004 0-71.852607 32.112897-71.852607 71.852607 0 39.539004 32.112897 71.852607 71.852607 
@@ -87,5 +88,5 @@
             </Style.Triggers>
         </Style>
 
-    </Application.Resources>
-</Application>
+    </appbase:ApplicationBase.Resources>
+</appbase:ApplicationBase>

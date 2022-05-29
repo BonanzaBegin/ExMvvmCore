@@ -1,4 +1,7 @@
-﻿using System;
+﻿#pragma warning disable
+using ExMvvmCore.AppServices;
+using SimpleIoc;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -11,7 +14,16 @@ namespace MvvmProgram
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
-    public partial class App : Application
+    public partial class App : ApplicationBase
     {
+        protected override void Configure(IApplicatoinBuilder app)
+        {
+            base.Configure(app);
+        }
+
+        protected override void ConfigureServices(IServiceCollection services)
+        {
+            base.ConfigureServices(services);
+        }
     }
 }
